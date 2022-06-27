@@ -1,0 +1,30 @@
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|       Launch Clock       |      Capture Clock       |                                                 Pin                                                      |
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|               clk_fpga_0 |               clk_fpga_0 |design_coder_i/hammingCoder_ip_0/inst/hammingCoder_ip_v1_0_S00_AXI_inst/hamming_rtl_inst/hamm_code_reg[15]/D|
+|               clk_fpga_0 |               clk_fpga_0 |    design_coder_i/hammingCoder_ip_0/inst/hammingCoder_ip_v1_0_S00_AXI_inst/hamming_rtl_inst/tmp_reg[14]/D|
+|               clk_fpga_0 |               clk_fpga_0 |design_coder_i/hammingCoder_ip_0/inst/hammingCoder_ip_v1_0_S00_AXI_inst/hamming_rtl_inst/tmp[14]_i_1_psdsp/D|
+|               clk_fpga_0 |               clk_fpga_0 |    design_coder_i/hammingCoder_ip_0/inst/hammingCoder_ip_v1_0_S00_AXI_inst/hamming_rtl_inst/tmp_reg[11]/D|
+|               clk_fpga_0 |               clk_fpga_0 |design_coder_i/hammingCoder_ip_0/inst/hammingCoder_ip_v1_0_S00_AXI_inst/hamming_rtl_inst/tmp[11]_i_1_psdsp/D|
+|               clk_fpga_0 |               clk_fpga_0 |     design_coder_i/hammingCoder_ip_0/inst/hammingCoder_ip_v1_0_S00_AXI_inst/hamming_rtl_inst/tmp_reg[2]/D|
+|               clk_fpga_0 |               clk_fpga_0 |design_coder_i/hammingCoder_ip_0/inst/hammingCoder_ip_v1_0_S00_AXI_inst/hamming_rtl_inst/tmp[2]_i_1_psdsp/D|
+|               clk_fpga_0 |               clk_fpga_0 |    design_coder_i/hammingCoder_ip_0/inst/hammingCoder_ip_v1_0_S00_AXI_inst/hamming_rtl_inst/tmp_reg[12]/D|
+|               clk_fpga_0 |               clk_fpga_0 |design_coder_i/hammingCoder_ip_0/inst/hammingCoder_ip_v1_0_S00_AXI_inst/hamming_rtl_inst/tmp[12]_i_1_psdsp/D|
+|               clk_fpga_0 |               clk_fpga_0 |     design_coder_i/hammingCoder_ip_0/inst/hammingCoder_ip_v1_0_S00_AXI_inst/hamming_rtl_inst/tmp_reg[7]/D|
+|               clk_fpga_0 |               clk_fpga_0 |design_coder_i/hammingCoder_ip_0/inst/hammingCoder_ip_v1_0_S00_AXI_inst/hamming_rtl_inst/tmp[7]_i_1_psdsp/D|
+|               clk_fpga_0 |               clk_fpga_0 |design_coder_i/hammingCoder_ip_0/inst/hammingCoder_ip_v1_0_S00_AXI_inst/hamming_rtl_inst/hamm_code_reg[14]/D|
+|               clk_fpga_0 |               clk_fpga_0 |     design_coder_i/hammingCoder_ip_0/inst/hammingCoder_ip_v1_0_S00_AXI_inst/hamming_rtl_inst/tmp_reg[1]/D|
+|               clk_fpga_0 |               clk_fpga_0 |     design_coder_i/hammingCoder_ip_0/inst/hammingCoder_ip_v1_0_S00_AXI_inst/hamming_rtl_inst/tmp_reg[6]/D|
+|               clk_fpga_0 |               clk_fpga_0 |design_coder_i/hammingCoder_ip_0/inst/hammingCoder_ip_v1_0_S00_AXI_inst/hamming_rtl_inst/tmp[1]_i_1_psdsp/D|
+|               clk_fpga_0 |               clk_fpga_0 |design_coder_i/hammingCoder_ip_0/inst/hammingCoder_ip_v1_0_S00_AXI_inst/hamming_rtl_inst/tmp[6]_i_1_psdsp/D|
+|               clk_fpga_0 |               clk_fpga_0 |     design_coder_i/hammingCoder_ip_0/inst/hammingCoder_ip_v1_0_S00_AXI_inst/hamming_rtl_inst/tmp_reg[3]/D|
+|               clk_fpga_0 |               clk_fpga_0 |design_coder_i/hammingCoder_ip_0/inst/hammingCoder_ip_v1_0_S00_AXI_inst/hamming_rtl_inst/tmp[3]_i_1_psdsp/D|
+|               clk_fpga_0 |               clk_fpga_0 |design_coder_i/hammingCoder_ip_0/inst/hammingCoder_ip_v1_0_S00_AXI_inst/hamming_rtl_inst/hamm_code_reg[6]/D|
+|               clk_fpga_0 |               clk_fpga_0 |design_coder_i/hammingCoder_ip_0/inst/hammingCoder_ip_v1_0_S00_AXI_inst/hamming_rtl_inst/hamm_code_reg[1]/D|
+|               clk_fpga_0 |               clk_fpga_0 |design_coder_i/hammingCoder_ip_0/inst/hammingCoder_ip_v1_0_S00_AXI_inst/hamming_rtl_inst/hamm_code_reg[8]/D|
+|               clk_fpga_0 |               clk_fpga_0 |design_coder_i/hammingCoder_ip_0/inst/hammingCoder_ip_v1_0_S00_AXI_inst/hamming_rtl_inst/hamm_code_reg[0]/D|
+|               clk_fpga_0 |               clk_fpga_0 |design_coder_i/hammingCoder_ip_0/inst/hammingCoder_ip_v1_0_S00_AXI_inst/hamming_rtl_inst/hamm_code_reg[3]/D|
+|               clk_fpga_0 |               clk_fpga_0 |design_coder_i/hammingCoder_ip_0/inst/hammingCoder_ip_v1_0_S00_AXI_inst/hamming_rtl_inst/hamm_code_reg[2]/D|
+|               clk_fpga_0 |               clk_fpga_0 |design_coder_i/hammingCoder_ip_0/inst/hammingCoder_ip_v1_0_S00_AXI_inst/hamming_rtl_inst/hamm_code_reg[7]/D|
+|               clk_fpga_0 |               clk_fpga_0 |design_coder_i/hammingCoder_ip_0/inst/hammingCoder_ip_v1_0_S00_AXI_inst/hamming_rtl_inst/hamm_code_reg[5]/D|
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+

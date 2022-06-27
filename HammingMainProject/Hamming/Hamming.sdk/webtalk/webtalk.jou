@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# 
+# Start of session at: Mon Jun 27 09:02:57 2022
+# Process ID: 38084
+# Current directory: C:/Users/krzys/OneDrive/Dokumenty/GitHub/HammingCoding/HammingMainProject/Hamming/Hamming.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: C:/Users/krzys/OneDrive/Dokumenty/GitHub/HammingCoding/HammingMainProject/Hamming/Hamming.sdk/webtalk/webtalk.log
+# Journal file: C:/Users/krzys/OneDrive/Dokumenty/GitHub/HammingCoding/HammingMainProject/Hamming/Hamming.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

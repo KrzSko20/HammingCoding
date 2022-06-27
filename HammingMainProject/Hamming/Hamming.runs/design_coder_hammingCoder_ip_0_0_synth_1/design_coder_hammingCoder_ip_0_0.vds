@@ -1,0 +1,426 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Jun 27 08:43:24 2022
+# Process ID: 41964
+# Current directory: C:/Users/krzys/OneDrive/Dokumenty/GitHub/HammingCoding/HammingMainProject/Hamming/Hamming.runs/design_coder_hammingCoder_ip_0_0_synth_1
+# Command line: vivado.exe -log design_coder_hammingCoder_ip_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_coder_hammingCoder_ip_0_0.tcl
+# Log file: C:/Users/krzys/OneDrive/Dokumenty/GitHub/HammingCoding/HammingMainProject/Hamming/Hamming.runs/design_coder_hammingCoder_ip_0_0_synth_1/design_coder_hammingCoder_ip_0_0.vds
+# Journal file: C:/Users/krzys/OneDrive/Dokumenty/GitHub/HammingCoding/HammingMainProject/Hamming/Hamming.runs/design_coder_hammingCoder_ip_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_coder_hammingCoder_ip_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/krzys/OneDrive/Dokumenty/GitHub/HammingCoding/HammingMainProject/ip_repo/hammingCoder_ip_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Programy/Vivado/Vivado/2019.1/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/Users/krzys/OneDrive/Dokumenty/GitHub/HammingCoding/HammingMainProject/Hamming/Hamming.cache/ip 
+Command: synth_design -top design_coder_hammingCoder_ip_0_0 -part xc7z020clg484-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 31464 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 832.289 ; gain = 176.719
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_coder_hammingCoder_ip_0_0' [c:/Users/krzys/OneDrive/Dokumenty/GitHub/HammingCoding/HammingMainProject/Hamming/Hamming.srcs/sources_1/bd/design_coder/ip/design_coder_hammingCoder_ip_0_0/synth/design_coder_hammingCoder_ip_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'hammingCoder_ip_v1_0' [c:/Users/krzys/OneDrive/Dokumenty/GitHub/HammingCoding/HammingMainProject/Hamming/Hamming.srcs/sources_1/bd/design_coder/ipshared/2892/hdl/hammingCoder_ip_v1_0.v:4]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'hammingCoder_ip_v1_0_S00_AXI' [c:/Users/krzys/OneDrive/Dokumenty/GitHub/HammingCoding/HammingMainProject/Hamming/Hamming.srcs/sources_1/bd/design_coder/ipshared/2892/hdl/hammingCoder_ip_v1_0_S00_AXI.v:4]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter ADDR_LSB bound to: 2 - type: integer 
+	Parameter OPT_MEM_ADDR_BITS bound to: 1 - type: integer 
+INFO: [Synth 8-226] default block is never used [c:/Users/krzys/OneDrive/Dokumenty/GitHub/HammingCoding/HammingMainProject/Hamming/Hamming.srcs/sources_1/bd/design_coder/ipshared/2892/hdl/hammingCoder_ip_v1_0_S00_AXI.v:231]
+INFO: [Synth 8-226] default block is never used [c:/Users/krzys/OneDrive/Dokumenty/GitHub/HammingCoding/HammingMainProject/Hamming/Hamming.srcs/sources_1/bd/design_coder/ipshared/2892/hdl/hammingCoder_ip_v1_0_S00_AXI.v:372]
+INFO: [Synth 8-6157] synthesizing module 'hamming_rtl' [c:/Users/krzys/OneDrive/Dokumenty/GitHub/HammingCoding/HammingMainProject/Hamming/Hamming.srcs/sources_1/bd/design_coder/ipshared/2892/hdl/hamming_rtl.sv:23]
+	Parameter IL bound to: 11 - type: integer 
+	Parameter OL bound to: 16 - type: integer 
+	Parameter S1 bound to: 4'b0001 
+	Parameter S2 bound to: 4'b0010 
+	Parameter S3 bound to: 4'b0011 
+	Parameter S4 bound to: 4'b0100 
+	Parameter S5 bound to: 4'b0101 
+	Parameter S6 bound to: 4'b0110 
+	Parameter S7 bound to: 4'b0111 
+	Parameter S8 bound to: 4'b1000 
+	Parameter S9 bound to: 4'b1001 
+	Parameter S10 bound to: 4'b1010 
+	Parameter S11 bound to: 4'b1011 
+	Parameter S12 bound to: 4'b1100 
+	Parameter S13 bound to: 4'b1101 
+	Parameter S14 bound to: 4'b1110 
+	Parameter S15 bound to: 4'b1111 
+INFO: [Synth 8-155] case statement is not full and has no default [c:/Users/krzys/OneDrive/Dokumenty/GitHub/HammingCoding/HammingMainProject/Hamming/Hamming.srcs/sources_1/bd/design_coder/ipshared/2892/hdl/hamming_rtl.sv:70]
+INFO: [Synth 8-6155] done synthesizing module 'hamming_rtl' (1#1) [c:/Users/krzys/OneDrive/Dokumenty/GitHub/HammingCoding/HammingMainProject/Hamming/Hamming.srcs/sources_1/bd/design_coder/ipshared/2892/hdl/hamming_rtl.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'hammingCoder_ip_v1_0_S00_AXI' (2#1) [c:/Users/krzys/OneDrive/Dokumenty/GitHub/HammingCoding/HammingMainProject/Hamming/Hamming.srcs/sources_1/bd/design_coder/ipshared/2892/hdl/hammingCoder_ip_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'hammingCoder_ip_v1_0' (3#1) [c:/Users/krzys/OneDrive/Dokumenty/GitHub/HammingCoding/HammingMainProject/Hamming/Hamming.srcs/sources_1/bd/design_coder/ipshared/2892/hdl/hammingCoder_ip_v1_0.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'design_coder_hammingCoder_ip_0_0' (4#1) [c:/Users/krzys/OneDrive/Dokumenty/GitHub/HammingCoding/HammingMainProject/Hamming/Hamming.srcs/sources_1/bd/design_coder/ip/design_coder_hammingCoder_ip_0_0/synth/design_coder_hammingCoder_ip_0_0.v:57]
+WARNING: [Synth 8-3331] design hammingCoder_ip_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design hammingCoder_ip_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design hammingCoder_ip_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design hammingCoder_ip_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design hammingCoder_ip_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design hammingCoder_ip_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 899.227 ; gain = 243.656
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 899.227 ; gain = 243.656
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 899.227 ; gain = 243.656
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1015.180 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.117 . Memory (MB): peak = 1017.293 ; gain = 2.113
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 1017.293 ; gain = 361.723
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 1017.293 ; gain = 361.723
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 1017.293 ; gain = 361.723
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/krzys/OneDrive/Dokumenty/GitHub/HammingCoding/HammingMainProject/Hamming/Hamming.srcs/sources_1/bd/design_coder/ipshared/2892/hdl/hamming_rtl.sv:70]
+INFO: [Synth 8-5544] ROM "parity_pos" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "parity" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "bit_mul" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "bit_mul" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "bit_mul" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "bit_mul" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "bit_mul" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 1017.293 ; gain = 361.723
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 3     
+	   2 Input      4 Bit       Adders := 2     
++---XORs : 
+	   2 Input     16 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 3     
+	               16 Bit    Registers := 6     
+	               11 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   4 Input     32 Bit        Muxes := 3     
+	   6 Input     17 Bit        Muxes := 1     
+	   7 Input     16 Bit        Muxes := 1     
+	  17 Input     16 Bit        Muxes := 5     
+	  16 Input     16 Bit        Muxes := 4     
+	   2 Input     16 Bit        Muxes := 2     
+	  16 Input      5 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 2     
+	   3 Input      4 Bit        Muxes := 1     
+	  16 Input      4 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	  16 Input      1 Bit        Muxes := 13    
+	   2 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module hamming_rtl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 3     
+	   2 Input      4 Bit       Adders := 2     
++---XORs : 
+	   2 Input     16 Bit         XORs := 1     
++---Registers : 
+	               16 Bit    Registers := 5     
+	               11 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   6 Input     17 Bit        Muxes := 1     
+	   7 Input     16 Bit        Muxes := 1     
+	  17 Input     16 Bit        Muxes := 5     
+	  16 Input     16 Bit        Muxes := 4     
+	   2 Input     16 Bit        Muxes := 2     
+	  16 Input      5 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 2     
+	   3 Input      4 Bit        Muxes := 1     
+	  16 Input      4 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	  16 Input      1 Bit        Muxes := 13    
+Module hammingCoder_ip_v1_0_S00_AXI 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 3     
+	               16 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   4 Input     32 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-4471] merging register 'tmp_reg[15:0]' into 'tmp_reg[15:0]' [c:/Users/krzys/OneDrive/Dokumenty/GitHub/HammingCoding/HammingMainProject/Hamming/Hamming.srcs/sources_1/bd/design_coder/ipshared/2892/hdl/hamming_rtl.sv:81]
+DSP Report: Generating DSP tmp0, operation Mode is: A*B.
+DSP Report: operator tmp0 is absorbed into DSP tmp0.
+DSP Report: Generating DSP hamm_code1, operation Mode is: A2*B.
+DSP Report: register tmp_reg is absorbed into DSP hamm_code1.
+DSP Report: operator hamm_code1 is absorbed into DSP hamm_code1.
+WARNING: [Synth 8-3331] design design_coder_hammingCoder_ip_0_0 has unconnected port s00_axi_awprot[2]
+WARNING: [Synth 8-3331] design design_coder_hammingCoder_ip_0_0 has unconnected port s00_axi_awprot[1]
+WARNING: [Synth 8-3331] design design_coder_hammingCoder_ip_0_0 has unconnected port s00_axi_awprot[0]
+WARNING: [Synth 8-3331] design design_coder_hammingCoder_ip_0_0 has unconnected port s00_axi_arprot[2]
+WARNING: [Synth 8-3331] design design_coder_hammingCoder_ip_0_0 has unconnected port s00_axi_arprot[1]
+WARNING: [Synth 8-3331] design design_coder_hammingCoder_ip_0_0 has unconnected port s00_axi_arprot[0]
+INFO: [Synth 8-3886] merging instance 'inst/hammingCoder_ip_v1_0_S00_AXI_inst/axi_rresp_reg[0]' (FDRE) to 'inst/hammingCoder_ip_v1_0_S00_AXI_inst/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst/hammingCoder_ip_v1_0_S00_AXI_inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'inst/hammingCoder_ip_v1_0_S00_AXI_inst/axi_bresp_reg[0]' (FDRE) to 'inst/hammingCoder_ip_v1_0_S00_AXI_inst/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst/hammingCoder_ip_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:27 . Memory (MB): peak = 1017.293 ; gain = 361.723
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping  Report (see note below)
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|hamming_rtl | A*B         | 16     | 11     | -      | -      | 27     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hamming_rtl | A2*B        | 16     | 16     | -      | -      | 32     | 1    | 0    | -    | -    | -     | 0    | 0    | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:40 ; elapsed = 00:00:47 . Memory (MB): peak = 1046.754 ; gain = 391.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:40 ; elapsed = 00:00:47 . Memory (MB): peak = 1047.422 ; gain = 391.852
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:41 ; elapsed = 00:00:48 . Memory (MB): peak = 1069.949 ; gain = 414.379
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:43 ; elapsed = 00:00:50 . Memory (MB): peak = 1077.055 ; gain = 421.484
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:43 ; elapsed = 00:00:50 . Memory (MB): peak = 1077.055 ; gain = 421.484
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:43 ; elapsed = 00:00:50 . Memory (MB): peak = 1077.055 ; gain = 421.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:43 ; elapsed = 00:00:50 . Memory (MB): peak = 1077.055 ; gain = 421.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:43 ; elapsed = 00:00:50 . Memory (MB): peak = 1077.055 ; gain = 421.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:43 ; elapsed = 00:00:50 . Memory (MB): peak = 1077.055 ; gain = 421.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |CARRY4    |   135|
+|2     |DSP48E1   |     1|
+|3     |DSP48E1_1 |     1|
+|4     |LUT1      |     1|
+|5     |LUT2      |    30|
+|6     |LUT3      |    11|
+|7     |LUT4      |   136|
+|8     |LUT5      |    96|
+|9     |LUT6      |   420|
+|10    |FDRE      |   243|
+|11    |FDSE      |     2|
++------+----------+------+
+
+Report Instance Areas: 
++------+--------------------------------------+-----------------------------+------+
+|      |Instance                              |Module                       |Cells |
++------+--------------------------------------+-----------------------------+------+
+|1     |top                                   |                             |  1076|
+|2     |  inst                                |hammingCoder_ip_v1_0         |  1076|
+|3     |    hammingCoder_ip_v1_0_S00_AXI_inst |hammingCoder_ip_v1_0_S00_AXI |  1076|
+|4     |      hamming_rtl_inst                |hamming_rtl                  |   901|
++------+--------------------------------------+-----------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:43 ; elapsed = 00:00:50 . Memory (MB): peak = 1077.055 ; gain = 421.484
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:33 ; elapsed = 00:00:44 . Memory (MB): peak = 1077.055 ; gain = 303.418
+Synthesis Optimization Complete : Time (s): cpu = 00:00:44 ; elapsed = 00:00:51 . Memory (MB): peak = 1077.055 ; gain = 421.484
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 137 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1077.055 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+38 Infos, 14 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:53 ; elapsed = 00:01:06 . Memory (MB): peak = 1077.055 ; gain = 691.438
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1077.055 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/krzys/OneDrive/Dokumenty/GitHub/HammingCoding/HammingMainProject/Hamming/Hamming.runs/design_coder_hammingCoder_ip_0_0_synth_1/design_coder_hammingCoder_ip_0_0.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_coder_hammingCoder_ip_0_0, cache-ID = 333ee7727c23f0e7
+INFO: [Coretcl 2-1174] Renamed 3 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1077.055 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/krzys/OneDrive/Dokumenty/GitHub/HammingCoding/HammingMainProject/Hamming/Hamming.runs/design_coder_hammingCoder_ip_0_0_synth_1/design_coder_hammingCoder_ip_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_coder_hammingCoder_ip_0_0_utilization_synth.rpt -pb design_coder_hammingCoder_ip_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Jun 27 08:44:42 2022...

@@ -1,0 +1,565 @@
+08:52:39 **** Build of project hamming_demo_app_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/hammingCoder_ip_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/hammingCoder_ip_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v7_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/hammingCoder_ip_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/hammingCoder_ip_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling hammingCoder_ip..."
+hammingCoder_ip_selftest.c: In function 'HAMMINGCODER_IP_Reg_SelfTest':
+hammingCoder_ip_selftest.c:52:64: warning: comparison of integer expressions of different signedness: 'u32' {aka 'long unsigned int'} and 'int' [-Wsign-compare]
+    if ( HAMMINGCODER_IP_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                                ^~
+hammingCoder_ip_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v7_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project hamming_demo_app ****
+
+Nothing to build for project hamming_demo_app
+08:53:28 **** Auto Build of configuration Debug for project hamming_demo_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../calculateHammingVal.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"calculateHammingVal.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hamming_demo_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"calculateHammingVal.d" -MT"calculateHammingVal.o" -o "calculateHammingVal.o" "../calculateHammingVal.c"
+../calculateHammingVal.c:4:10: fatal error: cordic_ip.h: No such file or directory
+ #include "cordic_ip.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [subdir.mk:29: calculateHammingVal.o] Error 1
+08:55:45 **** Auto Build of configuration Debug for project hamming_demo_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../calculateHammingVal.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"calculateHammingVal.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hamming_demo_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"calculateHammingVal.d" -MT"calculateHammingVal.o" -o "calculateHammingVal.o" "../calculateHammingVal.c"
+../calculateHammingVal.c:4:10: fatal error: hamming_ip.h: No such file or directory
+ #include "hamming_ip.h"
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [subdir.mk:29: calculateHammingVal.o] Error 1
+08:56:09 **** Auto Build of configuration Debug for project hamming_demo_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../calculateHammingVal.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"calculateHammingVal.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hamming_demo_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"calculateHammingVal.d" -MT"calculateHammingVal.o" -o "calculateHammingVal.o" "../calculateHammingVal.c"
+../calculateHammingVal.c:4:10: fatal error: hamming_ip.h: No such file or directory
+ #include "hamming_ip.h"
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [subdir.mk:29: calculateHammingVal.o] Error 1
+08:56:44 **** Auto Build of configuration Debug for project hamming_demo_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../calculateHammingVal.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"calculateHammingVal.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hamming_demo_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"calculateHammingVal.d" -MT"calculateHammingVal.o" -o "calculateHammingVal.o" "../calculateHammingVal.c"
+../calculateHammingVal.c:4:10: fatal error: hamming_ip.h: No such file or directory
+ #include "hamming_ip.h"
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [subdir.mk:29: calculateHammingVal.o] Error 1
+08:56:54 **** Incremental Build of configuration Debug for project hamming_demo_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../calculateHammingVal.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"calculateHammingVal.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hamming_demo_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"calculateHammingVal.d" -MT"calculateHammingVal.o" -o "calculateHammingVal.o" "../calculateHammingVal.c"
+../calculateHammingVal.c:4:10: fatal error: hamming_ip.h: No such file or directory
+ #include "hamming_ip.h"
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [subdir.mk:29: calculateHammingVal.o] Error 1
+08:57:04 **** Auto Build of configuration Debug for project hamming_demo_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../calculateHammingVal.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"calculateHammingVal.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hamming_demo_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"calculateHammingVal.d" -MT"calculateHammingVal.o" -o "calculateHammingVal.o" "../calculateHammingVal.c"
+../calculateHammingVal.c: In function 'calculateHammingVal':
+../calculateHammingVal.c:39:2: warning: implicit declaration of function 'HAMMING_IP_mWriteReg'; did you mean 'HAMMINGCODER_IP_mWriteReg'? [-Wimplicit-function-declaration]
+  HAMMING_IP_mWriteReg(HAMMING_BASE_ADDR, BINARY_REG_OFFSET, data);
+  ^~~~~~~~~~~~~~~~~~~~
+  HAMMINGCODER_IP_mWriteReg
+../calculateHammingVal.c:10:32: error: 'XPAR_HAMMING_IP_0_S00_AXI_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_HAMMINGCODER_IP_0_S00_AXI_BASEADDR'?
+ #define HAMMING_BASE_ADDR      XPAR_HAMMING_IP_0_S00_AXI_BASEADDR
+                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../calculateHammingVal.c:10:32: note: in definition of macro 'HAMMING_BASE_ADDR'
+ #define HAMMING_BASE_ADDR      XPAR_HAMMING_IP_0_S00_AXI_BASEADDR
+                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../calculateHammingVal.c:10:32: note: each undeclared identifier is reported only once for each function it appears in
+ #define HAMMING_BASE_ADDR      XPAR_HAMMING_IP_0_S00_AXI_BASEADDR
+                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../calculateHammingVal.c:10:32: note: in definition of macro 'HAMMING_BASE_ADDR'
+ #define HAMMING_BASE_ADDR      XPAR_HAMMING_IP_0_S00_AXI_BASEADDR
+                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../calculateHammingVal.c:13:32: error: 'HAMMING_IP_S00_AXI_SLV_REG1_OFFSET' undeclared (first use in this function); did you mean 'HAMMINGCODER_IP_S00_AXI_SLV_REG1_OFFSET'?
+ #define BINARY_REG_OFFSET      HAMMING_IP_S00_AXI_SLV_REG1_OFFSET
+                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../calculateHammingVal.c:13:32: note: in definition of macro 'BINARY_REG_OFFSET'
+ #define BINARY_REG_OFFSET      HAMMING_IP_S00_AXI_SLV_REG1_OFFSET
+                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../calculateHammingVal.c:12:31: error: 'HAMMING_IP_S00_AXI_SLV_REG0_OFFSET' undeclared (first use in this function); did you mean 'HAMMINGCODER_IP_S00_AXI_SLV_REG0_OFFSET'?
+ #define CONTROL_REG_OFFSET    HAMMING_IP_S00_AXI_SLV_REG0_OFFSET
+                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../calculateHammingVal.c:12:31: note: in definition of macro 'CONTROL_REG_OFFSET'
+ #define CONTROL_REG_OFFSET    HAMMING_IP_S00_AXI_SLV_REG0_OFFSET
+                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../calculateHammingVal.c:44:10: warning: implicit declaration of function 'HAMMING_IP_mReadReg'; did you mean 'HAMMINGCODER_IP_mReadReg'? [-Wimplicit-function-declaration]
+  while( (HAMMING_IP_mReadReg(HAMMING_BASE_ADDR, STATUS_REG_OFFSET) & STATUS_REG_READY_MASK) == 0);
+          ^~~~~~~~~~~~~~~~~~~
+          HAMMINGCODER_IP_mReadReg
+../calculateHammingVal.c:14:31: error: 'HAMMING_IP_S00_AXI_SLV_REG2_OFFSET' undeclared (first use in this function); did you mean 'HAMMINGCODER_IP_S00_AXI_SLV_REG2_OFFSET'?
+ #define STATUS_REG_OFFSET     HAMMING_IP_S00_AXI_SLV_REG2_OFFSET
+                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../calculateHammingVal.c:14:31: note: in definition of macro 'STATUS_REG_OFFSET'
+ #define STATUS_REG_OFFSET     HAMMING_IP_S00_AXI_SLV_REG2_OFFSET
+                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../calculateHammingVal.c:15:30: error: 'HAMMING_IP_S00_AXI_SLV_REG3_OFFSET' undeclared (first use in this function); did you mean 'HAMMINGCODER_IP_S00_AXI_SLV_REG3_OFFSET'?
+ #define RESULT_REG_OFFSET    HAMMING_IP_S00_AXI_SLV_REG3_OFFSET
+                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../calculateHammingVal.c:15:30: note: in definition of macro 'RESULT_REG_OFFSET'
+ #define RESULT_REG_OFFSET    HAMMING_IP_S00_AXI_SLV_REG3_OFFSET
+                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [subdir.mk:29: calculateHammingVal.o] Error 1
+08:57:14 **** Incremental Build of configuration Debug for project hamming_demo_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../calculateHammingVal.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"calculateHammingVal.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hamming_demo_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"calculateHammingVal.d" -MT"calculateHammingVal.o" -o "calculateHammingVal.o" "../calculateHammingVal.c"
+../calculateHammingVal.c: In function 'calculateHammingVal':
+../calculateHammingVal.c:39:2: warning: implicit declaration of function 'HAMMING_IP_mWriteReg'; did you mean 'HAMMINGCODER_IP_mWriteReg'? [-Wimplicit-function-declaration]
+  HAMMING_IP_mWriteReg(HAMMING_BASE_ADDR, BINARY_REG_OFFSET, data);
+  ^~~~~~~~~~~~~~~~~~~~
+  HAMMINGCODER_IP_mWriteReg
+../calculateHammingVal.c:10:32: error: 'XPAR_HAMMING_IP_0_S00_AXI_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_HAMMINGCODER_IP_0_S00_AXI_BASEADDR'?
+ #define HAMMING_BASE_ADDR      XPAR_HAMMING_IP_0_S00_AXI_BASEADDR
+                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../calculateHammingVal.c:10:32: note: in definition of macro 'HAMMING_BASE_ADDR'
+ #define HAMMING_BASE_ADDR      XPAR_HAMMING_IP_0_S00_AXI_BASEADDR
+                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../calculateHammingVal.c:10:32: note: each undeclared identifier is reported only once for each function it appears in
+ #define HAMMING_BASE_ADDR      XPAR_HAMMING_IP_0_S00_AXI_BASEADDR
+                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../calculateHammingVal.c:10:32: note: in definition of macro 'HAMMING_BASE_ADDR'
+ #define HAMMING_BASE_ADDR      XPAR_HAMMING_IP_0_S00_AXI_BASEADDR
+                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../calculateHammingVal.c:13:32: error: 'HAMMING_IP_S00_AXI_SLV_REG1_OFFSET' undeclared (first use in this function); did you mean 'HAMMINGCODER_IP_S00_AXI_SLV_REG1_OFFSET'?
+ #define BINARY_REG_OFFSET      HAMMING_IP_S00_AXI_SLV_REG1_OFFSET
+                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../calculateHammingVal.c:13:32: note: in definition of macro 'BINARY_REG_OFFSET'
+ #define BINARY_REG_OFFSET      HAMMING_IP_S00_AXI_SLV_REG1_OFFSET
+                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../calculateHammingVal.c:12:31: error: 'HAMMING_IP_S00_AXI_SLV_REG0_OFFSET' undeclared (first use in this function); did you mean 'HAMMINGCODER_IP_S00_AXI_SLV_REG0_OFFSET'?
+ #define CONTROL_REG_OFFSET    HAMMING_IP_S00_AXI_SLV_REG0_OFFSET
+                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../calculateHammingVal.c:12:31: note: in definition of macro 'CONTROL_REG_OFFSET'
+ #define CONTROL_REG_OFFSET    HAMMING_IP_S00_AXI_SLV_REG0_OFFSET
+                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../calculateHammingVal.c:44:10: warning: implicit declaration of function 'HAMMING_IP_mReadReg'; did you mean 'HAMMINGCODER_IP_mReadReg'? [-Wimplicit-function-declaration]
+  while( (HAMMING_IP_mReadReg(HAMMING_BASE_ADDR, STATUS_REG_OFFSET) & STATUS_REG_READY_MASK) == 0);
+          ^~~~~~~~~~~~~~~~~~~
+          HAMMINGCODER_IP_mReadReg
+../calculateHammingVal.c:14:31: error: 'HAMMING_IP_S00_AXI_SLV_REG2_OFFSET' undeclared (first use in this function); did you mean 'HAMMINGCODER_IP_S00_AXI_SLV_REG2_OFFSET'?
+ #define STATUS_REG_OFFSET     HAMMING_IP_S00_AXI_SLV_REG2_OFFSET
+                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../calculateHammingVal.c:14:31: note: in definition of macro 'STATUS_REG_OFFSET'
+ #define STATUS_REG_OFFSET     HAMMING_IP_S00_AXI_SLV_REG2_OFFSET
+                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../calculateHammingVal.c:15:30: error: 'HAMMING_IP_S00_AXI_SLV_REG3_OFFSET' undeclared (first use in this function); did you mean 'HAMMINGCODER_IP_S00_AXI_SLV_REG3_OFFSET'?
+ #define RESULT_REG_OFFSET    HAMMING_IP_S00_AXI_SLV_REG3_OFFSET
+                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../calculateHammingVal.c:15:30: note: in definition of macro 'RESULT_REG_OFFSET'
+ #define RESULT_REG_OFFSET    HAMMING_IP_S00_AXI_SLV_REG3_OFFSET
+                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [subdir.mk:29: calculateHammingVal.o] Error 1
+08:57:39 **** Incremental Build of configuration Debug for project hamming_demo_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../calculateHammingVal.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"calculateHammingVal.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hamming_demo_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"calculateHammingVal.d" -MT"calculateHammingVal.o" -o "calculateHammingVal.o" "../calculateHammingVal.c"
+../calculateHammingVal.c: In function 'calculateHammingVal':
+../calculateHammingVal.c:39:2: warning: implicit declaration of function 'HAMMING_IP_mWriteReg'; did you mean 'HAMMINGCODER_IP_mWriteReg'? [-Wimplicit-function-declaration]
+  HAMMING_IP_mWriteReg(HAMMING_BASE_ADDR, BINARY_REG_OFFSET, data);
+  ^~~~~~~~~~~~~~~~~~~~
+  HAMMINGCODER_IP_mWriteReg
+../calculateHammingVal.c:10:32: error: 'XPAR_HAMMING_IP_0_S00_AXI_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_HAMMINGCODER_IP_0_S00_AXI_BASEADDR'?
+ #define HAMMING_BASE_ADDR      XPAR_HAMMING_IP_0_S00_AXI_BASEADDR
+                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../calculateHammingVal.c:10:32: note: in definition of macro 'HAMMING_BASE_ADDR'
+ #define HAMMING_BASE_ADDR      XPAR_HAMMING_IP_0_S00_AXI_BASEADDR
+                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../calculateHammingVal.c:10:32: note: each undeclared identifier is reported only once for each function it appears in
+ #define HAMMING_BASE_ADDR      XPAR_HAMMING_IP_0_S00_AXI_BASEADDR
+                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../calculateHammingVal.c:10:32: note: in definition of macro 'HAMMING_BASE_ADDR'
+ #define HAMMING_BASE_ADDR      XPAR_HAMMING_IP_0_S00_AXI_BASEADDR
+                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../calculateHammingVal.c:13:32: error: 'HAMMING_IP_S00_AXI_SLV_REG1_OFFSET' undeclared (first use in this function); did you mean 'HAMMINGCODER_IP_S00_AXI_SLV_REG1_OFFSET'?
+ #define BINARY_REG_OFFSET      HAMMING_IP_S00_AXI_SLV_REG1_OFFSET
+                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../calculateHammingVal.c:13:32: note: in definition of macro 'BINARY_REG_OFFSET'
+ #define BINARY_REG_OFFSET      HAMMING_IP_S00_AXI_SLV_REG1_OFFSET
+                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../calculateHammingVal.c:12:31: error: 'HAMMING_IP_S00_AXI_SLV_REG0_OFFSET' undeclared (first use in this function); did you mean 'HAMMINGCODER_IP_S00_AXI_SLV_REG0_OFFSET'?
+ #define CONTROL_REG_OFFSET    HAMMING_IP_S00_AXI_SLV_REG0_OFFSET
+                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../calculateHammingVal.c:12:31: note: in definition of macro 'CONTROL_REG_OFFSET'
+ #define CONTROL_REG_OFFSET    HAMMING_IP_S00_AXI_SLV_REG0_OFFSET
+                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../calculateHammingVal.c:44:10: warning: implicit declaration of function 'HAMMING_IP_mReadReg'; did you mean 'HAMMINGCODER_IP_mReadReg'? [-Wimplicit-function-declaration]
+  while( (HAMMING_IP_mReadReg(HAMMING_BASE_ADDR, STATUS_REG_OFFSET) & STATUS_REG_READY_MASK) == 0);
+          ^~~~~~~~~~~~~~~~~~~
+          HAMMINGCODER_IP_mReadReg
+../calculateHammingVal.c:14:31: error: 'HAMMING_IP_S00_AXI_SLV_REG2_OFFSET' undeclared (first use in this function); did you mean 'HAMMINGCODER_IP_S00_AXI_SLV_REG2_OFFSET'?
+ #define STATUS_REG_OFFSET     HAMMING_IP_S00_AXI_SLV_REG2_OFFSET
+                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../calculateHammingVal.c:14:31: note: in definition of macro 'STATUS_REG_OFFSET'
+ #define STATUS_REG_OFFSET     HAMMING_IP_S00_AXI_SLV_REG2_OFFSET
+                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../calculateHammingVal.c:15:30: error: 'HAMMING_IP_S00_AXI_SLV_REG3_OFFSET' undeclared (first use in this function); did you mean 'HAMMINGCODER_IP_S00_AXI_SLV_REG3_OFFSET'?
+ #define RESULT_REG_OFFSET    HAMMING_IP_S00_AXI_SLV_REG3_OFFSET
+                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../calculateHammingVal.c:15:30: note: in definition of macro 'RESULT_REG_OFFSET'
+ #define RESULT_REG_OFFSET    HAMMING_IP_S00_AXI_SLV_REG3_OFFSET
+                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [subdir.mk:29: calculateHammingVal.o] Error 1
+08:57:52 **** Auto Build of configuration Debug for project hamming_demo_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../calculateHammingVal.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"calculateHammingVal.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hamming_demo_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"calculateHammingVal.d" -MT"calculateHammingVal.o" -o "calculateHammingVal.o" "../calculateHammingVal.c"
+../calculateHammingVal.c: In function 'calculateHammingVal':
+../calculateHammingVal.c:39:2: warning: implicit declaration of function 'HAMMING_IP_mWriteReg'; did you mean 'HAMMINGCODER_IP_mWriteReg'? [-Wimplicit-function-declaration]
+  HAMMING_IP_mWriteReg(HAMMING_BASE_ADDR, BINARY_REG_OFFSET, data);
+  ^~~~~~~~~~~~~~~~~~~~
+  HAMMINGCODER_IP_mWriteReg
+../calculateHammingVal.c:39:23: error: 'HAMMING_BASE_ADDR' undeclared (first use in this function); did you mean 'HAMMINGCODER_BASE_ADDR'?
+  HAMMING_IP_mWriteReg(HAMMING_BASE_ADDR, BINARY_REG_OFFSET, data);
+                       ^~~~~~~~~~~~~~~~~
+                       HAMMINGCODER_BASE_ADDR
+../calculateHammingVal.c:39:23: note: each undeclared identifier is reported only once for each function it appears in
+../calculateHammingVal.c:44:10: warning: implicit declaration of function 'HAMMING_IP_mReadReg'; did you mean 'HAMMINGCODER_IP_mReadReg'? [-Wimplicit-function-declaration]
+  while( (HAMMING_IP_mReadReg(HAMMING_BASE_ADDR, STATUS_REG_OFFSET) & STATUS_REG_READY_MASK) == 0);
+          ^~~~~~~~~~~~~~~~~~~
+          HAMMINGCODER_IP_mReadReg
+make: *** [subdir.mk:29: calculateHammingVal.o] Error 1
+08:58:16 **** Auto Build of configuration Debug for project hamming_demo_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../calculateHammingVal.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"calculateHammingVal.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hamming_demo_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"calculateHammingVal.d" -MT"calculateHammingVal.o" -o "calculateHammingVal.o" "../calculateHammingVal.c"
+../calculateHammingVal.c: In function 'calculateHammingVal':
+../calculateHammingVal.c:39:2: warning: implicit declaration of function 'HAMMING_IP_mWriteReg'; did you mean 'HAMMINGCODER_IP_mWriteReg'? [-Wimplicit-function-declaration]
+  HAMMING_IP_mWriteReg(HAMMINGCODER_BASE_ADDR, BINARY_REG_OFFSET, data);
+  ^~~~~~~~~~~~~~~~~~~~
+  HAMMINGCODER_IP_mWriteReg
+../calculateHammingVal.c:44:10: warning: implicit declaration of function 'HAMMING_IP_mReadReg'; did you mean 'HAMMINGCODER_IP_mReadReg'? [-Wimplicit-function-declaration]
+  while( (HAMMING_IP_mReadReg(HAMMINGCODER_BASE_ADDR, STATUS_REG_OFFSET) & STATUS_REG_READY_MASK) == 0);
+          ^~~~~~~~~~~~~~~~~~~
+          HAMMINGCODER_IP_mReadReg
+'Finished building: ../calculateHammingVal.c'
+' '
+'Building file: ../hamming.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"hamming.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hamming_demo_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"hamming.d" -MT"hamming.o" -o "hamming.o" "../hamming.c"
+../hamming.c: In function 'hammingBitManipulation':
+../hamming.c:221:9: warning: unused variable 'i' [-Wunused-variable]
+     int i, error_num = 0, error_pos1 = 0, error_pos2 = 0;
+         ^
+../hamming.c:220:32: warning: unused variable 'pos2' [-Wunused-variable]
+     unsigned char pos1 = 0x01, pos2 = 0x01;
+                                ^~~~
+../hamming.c:220:19: warning: unused variable 'pos1' [-Wunused-variable]
+     unsigned char pos1 = 0x01, pos2 = 0x01;
+                   ^~~~
+'Finished building: ../hamming.c'
+' '
+'Building file: ../main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hamming_demo_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function 'main':
+../main.c:97:16: warning: implicit declaration of function 'hammingEncoder' [-Wimplicit-function-declaration]
+      newdata = hammingEncoder(binary);
+                ^~~~~~~~~~~~~~
+../main.c:107:25: warning: implicit declaration of function 'hammingDecoder' [-Wimplicit-function-declaration]
+      hamm_decoded_ref = hammingDecoder(hamm_code);
+                         ^~~~~~~~~~~~~~
+../main.c:112:25: warning: implicit declaration of function 'hammingBitManipulation' [-Wimplicit-function-declaration]
+      hamm_manipulated = hammingBitManipulation(hamm_code);
+                         ^~~~~~~~~~~~~~~~~~~~~~
+../main.c:117:19: warning: implicit declaration of function 'hammingCheckCorrectness' [-Wimplicit-function-declaration]
+      hamm_error = hammingCheckCorrectness(hamm_manipulated);
+                   ^~~~~~~~~~~~~~~~~~~~~~~
+../main.c:118:21: warning: implicit declaration of function 'hammingCorrectErrors' [-Wimplicit-function-declaration]
+      hamm_decoded = hammingCorrectErrors(hamm_manipulated, hamm_error);
+                     ^~~~~~~~~~~~~~~~~~~~
+../main.c:124:6: warning: implicit declaration of function 'sleep'; did you mean 'strsep'? [-Wimplicit-function-declaration]
+      sleep(1);
+      ^~~~~
+      strsep
+../main.c:81:5: warning: unused variable 'ham_decoded' [-Wunused-variable]
+ u32 ham_decoded = 0;
+     ^~~~~~~~~~~
+'Finished building: ../main.c'
+' '
+'Building file: ../platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hamming_demo_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"platform.d" -MT"platform.o" -o "platform.o" "../platform.c"
+'Finished building: ../platform.c'
+' '
+'Building target: hamming_demo_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hamming_demo_app_bsp/ps7_cortexa9_0/lib -o "hamming_demo_app.elf"  ./calculateHammingVal.o ./hamming.o ./main.o ./platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+d:/programy/vivado/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./calculateHammingVal.o: in function `calculateHammingVal':
+C:\Users\krzys\OneDrive\Dokumenty\GitHub\HammingCoding\HammingMainProject\Hamming\Hamming.sdk\hamming_demo_app\Debug/../calculateHammingVal.c:39: undefined reference to `HAMMING_IP_mWriteReg'
+d:/programy/vivado/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: C:\Users\krzys\OneDrive\Dokumenty\GitHub\HammingCoding\HammingMainProject\Hamming\Hamming.sdk\hamming_demo_app\Debug/../calculateHammingVal.c:41: undefined reference to `HAMMING_IP_mWriteReg'
+d:/programy/vivado/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: C:\Users\krzys\OneDrive\Dokumenty\GitHub\HammingCoding\HammingMainProject\Hamming\Hamming.sdk\hamming_demo_app\Debug/../calculateHammingVal.c:42: undefined reference to `HAMMING_IP_mWriteReg'
+d:/programy/vivado/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: C:\Users\krzys\OneDrive\Dokumenty\GitHub\HammingCoding\HammingMainProject\Hamming\Hamming.sdk\hamming_demo_app\Debug/../calculateHammingVal.c:44: undefined reference to `HAMMING_IP_mReadReg'
+d:/programy/vivado/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: C:\Users\krzys\OneDrive\Dokumenty\GitHub\HammingCoding\HammingMainProject\Hamming\Hamming.sdk\hamming_demo_app\Debug/../calculateHammingVal.c:46: undefined reference to `HAMMING_IP_mReadReg'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:40: hamming_demo_app.elf] Error 1
+08:58:23 **** Auto Build of configuration Debug for project hamming_demo_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../calculateHammingVal.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"calculateHammingVal.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hamming_demo_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"calculateHammingVal.d" -MT"calculateHammingVal.o" -o "calculateHammingVal.o" "../calculateHammingVal.c"
+../calculateHammingVal.c: In function 'calculateHammingVal':
+../calculateHammingVal.c:44:10: warning: implicit declaration of function 'HAMMING_IP_mReadReg'; did you mean 'HAMMINGCODER_IP_mReadReg'? [-Wimplicit-function-declaration]
+  while( (HAMMING_IP_mReadReg(HAMMINGCODER_BASE_ADDR, STATUS_REG_OFFSET) & STATUS_REG_READY_MASK) == 0);
+          ^~~~~~~~~~~~~~~~~~~
+          HAMMINGCODER_IP_mReadReg
+'Finished building: ../calculateHammingVal.c'
+' '
+'Building target: hamming_demo_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hamming_demo_app_bsp/ps7_cortexa9_0/lib -o "hamming_demo_app.elf"  ./calculateHammingVal.o ./hamming.o ./main.o ./platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+d:/programy/vivado/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./calculateHammingVal.o: in function `calculateHammingVal':
+C:\Users\krzys\OneDrive\Dokumenty\GitHub\HammingCoding\HammingMainProject\Hamming\Hamming.sdk\hamming_demo_app\Debug/../calculateHammingVal.c:44: undefined reference to `HAMMING_IP_mReadReg'
+d:/programy/vivado/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: C:\Users\krzys\OneDrive\Dokumenty\GitHub\HammingCoding\HammingMainProject\Hamming\Hamming.sdk\hamming_demo_app\Debug/../calculateHammingVal.c:46: undefined reference to `HAMMING_IP_mReadReg'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:40: hamming_demo_app.elf] Error 1
+08:58:26 **** Incremental Build of configuration Debug for project hamming_demo_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building target: hamming_demo_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hamming_demo_app_bsp/ps7_cortexa9_0/lib -o "hamming_demo_app.elf"  ./calculateHammingVal.o ./hamming.o ./main.o ./platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+d:/programy/vivado/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./calculateHammingVal.o: in function `calculateHammingVal':
+C:\Users\krzys\OneDrive\Dokumenty\GitHub\HammingCoding\HammingMainProject\Hamming\Hamming.sdk\hamming_demo_app\Debug/../calculateHammingVal.c:44: undefined reference to `HAMMING_IP_mReadReg'
+d:/programy/vivado/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: C:\Users\krzys\OneDrive\Dokumenty\GitHub\HammingCoding\HammingMainProject\Hamming\Hamming.sdk\hamming_demo_app\Debug/../calculateHammingVal.c:46: undefined reference to `HAMMING_IP_mReadReg'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:40: hamming_demo_app.elf] Error 1
+08:58:35 **** Incremental Build of configuration Debug for project hamming_demo_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building target: hamming_demo_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hamming_demo_app_bsp/ps7_cortexa9_0/lib -o "hamming_demo_app.elf"  ./calculateHammingVal.o ./hamming.o ./main.o ./platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+d:/programy/vivado/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./calculateHammingVal.o: in function `calculateHammingVal':
+C:\Users\krzys\OneDrive\Dokumenty\GitHub\HammingCoding\HammingMainProject\Hamming\Hamming.sdk\hamming_demo_app\Debug/../calculateHammingVal.c:44: undefined reference to `HAMMING_IP_mReadReg'
+d:/programy/vivado/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: C:\Users\krzys\OneDrive\Dokumenty\GitHub\HammingCoding\HammingMainProject\Hamming\Hamming.sdk\hamming_demo_app\Debug/../calculateHammingVal.c:46: undefined reference to `HAMMING_IP_mReadReg'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:40: hamming_demo_app.elf] Error 1
+08:58:45 **** Auto Build of configuration Debug for project hamming_demo_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../calculateHammingVal.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"calculateHammingVal.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hamming_demo_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"calculateHammingVal.d" -MT"calculateHammingVal.o" -o "calculateHammingVal.o" "../calculateHammingVal.c"
+'Finished building: ../calculateHammingVal.c'
+' '
+'Building target: hamming_demo_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hamming_demo_app_bsp/ps7_cortexa9_0/lib -o "hamming_demo_app.elf"  ./calculateHammingVal.o ./hamming.o ./main.o ./platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hamming_demo_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hamming_demo_app.elf  |tee "hamming_demo_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  49680	   2584	  23320	  75584	  12740	hamming_demo_app.elf
+'Finished building: hamming_demo_app.elf.size'
+' '
+08:59:15 **** Auto Build of configuration Debug for project hamming_demo_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../calculateHammingVal.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"calculateHammingVal.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hamming_demo_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"calculateHammingVal.d" -MT"calculateHammingVal.o" -o "calculateHammingVal.o" "../calculateHammingVal.c"
+'Finished building: ../calculateHammingVal.c'
+' '
+'Building target: hamming_demo_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hamming_demo_app_bsp/ps7_cortexa9_0/lib -o "hamming_demo_app.elf"  ./calculateHammingVal.o ./hamming.o ./main.o ./platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hamming_demo_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hamming_demo_app.elf  |tee "hamming_demo_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  49680	   2584	  23320	  75584	  12740	hamming_demo_app.elf
+'Finished building: hamming_demo_app.elf.size'
+' '
+08:59:17 **** Auto Build of configuration Debug for project hamming_demo_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+08:59:18 **** Incremental Build of configuration Debug for project hamming_demo_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+09:00:15 **** Auto Build of configuration Debug for project hamming_demo_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../calculateHammingVal.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"calculateHammingVal.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hamming_demo_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"calculateHammingVal.d" -MT"calculateHammingVal.o" -o "calculateHammingVal.o" "../calculateHammingVal.c"
+'Finished building: ../calculateHammingVal.c'
+' '
+'Building target: hamming_demo_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hamming_demo_app_bsp/ps7_cortexa9_0/lib -o "hamming_demo_app.elf"  ./calculateHammingVal.o ./hamming.o ./main.o ./platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hamming_demo_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hamming_demo_app.elf  |tee "hamming_demo_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  49680	   2584	  23320	  75584	  12740	hamming_demo_app.elf
+'Finished building: hamming_demo_app.elf.size'
+' '
+09:01:39 **** Incremental Build of configuration Debug for project hamming_demo_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+09:03:54 **** Incremental Build of configuration Debug for project hamming_demo_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
